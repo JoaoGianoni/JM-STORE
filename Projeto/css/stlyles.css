@@ -1,3 +1,74 @@
-h1 {
-color: red;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/* Cabeçalho */
+header {
+    background-color: blue;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid rgb(0, 0, 121);
+}
+
+/* Grid de Produtos */
+.container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+.product-image {
+    height: 430px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1 {
+    background-image: url('../img/jogo1.jpg');
+}
+
+#img-2 {
+    background-image: url('../img/jogo2.jpg');
+}
+
+#img-3 {
+    background-image: url('../img/jogo3.jpg');
+}
+
+#img-4 {
+    background-image: url('../img/jogo4.jpg');
+}
+
+#img-5 {
+    background-image: url('../img/jogo5.jpg');
+}
+
+#img-6 {
+    background-image: url('../img/jogo6.jpg');
+}
+
+/* Footer */
+footer {
+    background-color: blue;
+    color: #fff;
+    border-top: rgb(0, 0, 121);
+    text-align: center;
+    padding: 80px;
 }
